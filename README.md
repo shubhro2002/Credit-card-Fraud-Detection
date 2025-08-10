@@ -38,3 +38,26 @@ This dataset has been taken from kaggle. It contains features like:
 | SMOTE Oversampling    | 0.892473 | 0.846939 | 0.869110 | 0.968392 | 56854 | 10 | 15 | 83 |
 | Random Undersampling  | 0.045000 | 0.918367 | 0.085796 | 0.974063 | 54954 |1910| 8 | 90 |
 | Standard Random Forest| 0.952381 | 0.816327 | 0.879121 | 0.952806 | 56960 | 4 | 18 | 80 |
+
+## 📊Observations
+
+- **Without addressing class imbalance** wins if the main goal is **overall balance (F1) while keeping both precision and recall high**.
+
+- **SMOTE is second-best**, especially if **ROC-AUC** is prioritized.
+
+- **Class Weight Balanced** is third-best when precision is critical -- Great **precision**, but **recall drop pulls F1 down**.
+
+- **Undersampling** should be avoided -- **huge false negatives**.
+
+## 🚀 Getting Started
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/shubhro2002/Credit-card-Fraud-Detection.git
+
+2. Install required dependencies:
+
+   ```bash
+   pip install -r requirements.txt
+
+4. Run the Jupyter notebooks or Python scripts to start using.
