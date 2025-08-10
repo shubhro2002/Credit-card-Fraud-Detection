@@ -1,6 +1,6 @@
 # 🧠 Credit-card-Fraud-Detection
 
-This project focuses on building and comparing machine learning models to detect fraudulent transactions using the **IEEE-CIS Fraud Detection Dataset**.  
+This project focuses on building and comparing machine learning models to detect fraudulent transactions using a transaction dataset from Kaggle  
 The goal is to explore different modeling techniques, handle data preprocessing, address (or not address) the **class imbalance problem**, and evaluate model performance to choose the best approach.
 
 ## 📁 Dataset Description
